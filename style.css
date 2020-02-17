@@ -1,4 +1,70 @@
-body{
+/*for boiler plate*/
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    }
+
+
+    /*nav bar*/
+
+    .main-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       height: 60px;
+       padding: 20px 0;
+       font-size: 13px;
+    }
+
+    .main-nav .logo{
+        width: 70px;
+        height: 60px;
+        
+    }
+
+    .main-nav ul {
+        display: flex;
+    }
+
+    .main-nav ul li {
+        padding: 0 10px;
+    }
+
+.main-nav ul li a:hover{
+border-bottom: 2px solid salmon;
+}
+
+    .main-nav ul.main-menu {
+        flex:1;
+       margin-left: 20px;
+    }
+
+    
