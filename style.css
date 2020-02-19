@@ -7,8 +7,8 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background:#fff;
-    color: #000;
+    background:#0a192f;
+    color: #64FFDA;
     font-size: 15px;
     line-height: 1.5;
 }
@@ -16,7 +16,7 @@ body{
 
 
 a{
-    color: #000;
+    color: salmon;
     text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ ul{
 padding-bottom: 3px;
 }
 .main-nav ul li a:hover{
-border-bottom: 2px solid salmon;
+border-bottom: 2px solid #64ffda;
 }
 
 .main-nav ul.main-menu {
@@ -82,8 +82,8 @@ border-bottom: 2px solid salmon;
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
-    background: #262626;
-    color: #fff;
+    background: salmon;
+    color: #0a192f;
     font-size: 15px;
 }
 
@@ -93,7 +93,7 @@ border-bottom: 2px solid salmon;
 }
 
 .dark .btn {
-    background: #f4f4f4;
+    background: #64ffda;
     color:#000;
 
 }
@@ -145,7 +145,7 @@ border-bottom: 2px solid salmon;
 .home_cards a{
     display: inline-block;
     padding-top: 10px;
-    color:#0a8d8d;
+    color:salmon;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -205,8 +205,8 @@ border-bottom: 2px solid salmon;
 /*footer Links*/
 
 .links{
-    background: #f2f2f2;
-    color: #616161;
+    background: #0a192f;
+    color: salmon;
     font-size: 12px;
     padding: 35px 0;
 }
@@ -228,8 +228,8 @@ border-bottom: 2px solid salmon;
 
 /*footer*/
 .footer {
-    background: #f2f2f2;
-    color:#616161;
+    background: #0a192f;
+    color:#64ffda;
     font-size:12px ;
     padding: 20px 0;
 }
@@ -286,11 +286,12 @@ border-bottom: 2px solid salmon;
        background: #f2f2f2;
        width: 50%;
        height: 100%;
-       border-right: #ccc 3px solid;
+       border-right: salmon 3px solid;
        opacity: 0.9;
        padding: 30px;
        transform: translateX(-500px);
        transition: transform 0.5s ease-in-out;
+      
              
    }
 
@@ -301,6 +302,7 @@ border-bottom: 2px solid salmon;
    .main-nav ul.main-menu li{
        padding: 10px;
        border-bottom: rgb(209, 172, 172) solid 1px;
+       
        font-size: 14px;
    }
 
