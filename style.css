@@ -57,7 +57,9 @@ ul{
     .main-nav ul li {
         padding: 0 10px;
     }
-
+.main-nav ul li a{
+padding-bottom: 3px;
+}
 .main-nav ul li a:hover{
 border-bottom: 2px solid salmon;
 }
@@ -67,4 +69,93 @@ border-bottom: 2px solid salmon;
        margin-left: 20px;
     }
 
-    
+    .btn{
+        cursor: pointer;
+        display: inline-block;
+        border: 0;
+        font-weight: bold;
+        padding: 10px 20px;
+        background: #262626;
+        color: #ffffff;
+        font-size: 15px;
+    }
+.btn:hover{
+    opacity: 0.8;
+}
+
+.showcase{
+    width: 100%;
+    height: 400px;
+    background: url('./img/g.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+text-align: center;
+justify-content: flex-end;
+padding-bottom: 50px;
+margin-bottom: 20px;
+}
+
+.showcase h2, .showcase p {
+    margin-bottom: 10px;
+}
+
+.showcase .btn {
+    margin-top: 20px;
+}
+
+
+/*cards*/
+
+.home_cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:20px;
+    margin-bottom: 40px;
+
+}
+.card_img {
+    width: 100%;
+  margin-bottom: 20px;
+}
+
+.home_cards h3{
+    margin-bottom: 5px;
+}
+
+.home_cards a{
+    display: inline-block;
+    padding-top: 10px;
+    color:#0a8d8d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.home_cards a:hover {
+    margin-left: 10px;
+}
+
+/*XBOX style*/
+
+.xbox{
+    height: 350px;
+    width: 100%;
+    background: url('./img/r.png') no-repeat center center/cover;
+
+}
+
+.xbox .content {
+    width: 40%;
+    padding: 50px 0 0 30px;
+    }
+
+.xbox p {
+    margin: 10px 0 20px;
+}
+
+
+
+
+
+
+
